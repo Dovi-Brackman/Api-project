@@ -5,7 +5,7 @@ import os
 # Init app
 app = Flask(__name__)
 
-@app.route('/', methods=('GET'))
+@app.route('/', methods=['GET'])
 def get():
     return jsonify({ 'msg': 'Hello World' })
 
