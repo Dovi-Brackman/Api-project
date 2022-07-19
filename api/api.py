@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get():
-    return jsonify({ 'msg': 'What\'s up' })
+    return jsonify({ 'msg': 'Hello World' })
 
 # Run Server
 if __name__ == '__main__':
